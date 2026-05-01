@@ -40,7 +40,13 @@
 
 ## 📅 Changelog (ประวัติการพัฒนา)
 
-### v1.2.0 - Ultimate Edition (Current)
+### v1.3.0 - Global Aesthetics (Current)
+- **Added**: ระบบ Card Skins เลือกเปลี่ยนลายบัตรได้ 5 สไตล์ (Marble, Carbon, Holo, Crimson, Midnight)
+- **Added**: ระบบ Global Currency รองรับการสลับสกุลเงิน (THB, USD, EUR, JPY) พร้อมคำนวณค่าเงินอัตโนมัติ
+- **Improved**: UI Dashboard ปรับเปลี่ยนสีตามสกินที่เลือก
+- **Improved**: ระบบการป้อนข้อมูลให้รองรับสกุลเงินที่เลือก
+
+### v1.2.0 - Ultimate Edition
 - **Added**: ระบบ Debt & Loan Tracker (จัดการหนี้สิน/เงินยืม)
 - **Added**: แสดงเลขเวอร์ชันในหน้า Settings
 - **Improved**: UI ในหน้า Wallet ให้รองรับทั้ง Subscriptions และ Debts
