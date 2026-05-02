@@ -1,73 +1,46 @@
-# 💰 Finura - Personal Finance Manager (v1.2.0)
+# 💎 Finura Wealth - Enterprise Investment Terminal
 
-![Finura Banner](./finura_banner.png)
+![Finura Banner](./github_banner.png)
 
-**Finura** คือแอปพลิเคชันจัดการการเงินส่วนบุคคลระดับพรีเมียม ที่ถูกออกแบบมาด้วยแนวคิด "Luxury & Minimalist" เพื่อช่วยให้คุณควบคุมกระแสเงินสดได้อย่างมีประสิทธิภาพและสวยงามที่สุด
+**Finura Wealth** is a high-performance, enterprise-grade investment and portfolio management application designed for professional investors. It provides a real-time terminal experience for tracking global assets, executing simulated trades, and managing wealth with bank-level security.
 
----
+## 🚀 Key Features (v2.9.2)
 
-## ✨ Key Features (ฟีเจอร์เด่น)
+- **Enterprise UI/UX Overhaul**: A high-density "Wealth Console" design inspired by top-tier investment apps like Dime and WealthX.
+- **Live Market Watchlist**: Real-time price tracking for major assets (NVDA, SPY, IVV, VOO, BTC, AAPL) with integrated sparkline trend indicators.
+- **Advanced Trading Engine**: Robust Buy/Sell logic with real-time portfolio validation (Cash Balance and Holdings checks).
+- **Portfolio & Holdings Management**: Automated calculation of asset units, market value, and total net worth.
+- **Identity Protection**: 6-digit PIN security with "Instant Lock" technology (app locks immediately upon exit).
+- **Digital Success Receipts**: Professional transaction summaries generated after every successful trade.
+- **Customizable Environment**: Manually set your initial capital and display name to tailor the terminal to your needs.
 
-### 📊 Financial Insights
-- **Dashboard**: แสดงยอดเงินคงเหลือ รายรับ และรายจ่ายแบบ Real-time
-- **Analytics**: กราฟวงกลมแสดงสัดส่วนการใช้จ่ายตามหมวดหมู่
-- **Spending Trends**: กราฟเส้น (Area Chart) วิเคราะห์แนวโน้มการใช้เงินย้อนหลัง 7 วัน
+## 📱 Technology Stack
 
-### 🛡️ Privacy & Security
-- **PIN Lock**: ระบบล็อคแอปด้วยรหัสผ่าน 4 หลัก เพื่อความเป็นส่วนตัวสูงสุด
-- **Secure Storage**: บันทึกข้อมูลแบบ Local ภายในเครื่อง 100%
-
-### 💳 Wealth Management
-- **Budgeting**: ตั้งงบประมาณรายเดือนแยกตามหมวดหมู่ พร้อมระบบแจ้งเตือนเมื่อใช้เงินใกล้เต็มงบ
-- **Subscription Tracker**: จัดการค่าบริการรายเดือน (Netflix, Spotify, ฯลฯ) พร้อมสรุปยอดที่ต้องจ่าย
-- **Debt & Loan Tracker**: (NEW!) ระบบจดหนี้สินและเงินยืม "ใครติดเงินเรา หรือ เราติดเงินใคร" ครบจบในที่เดียว
-
-### 🛠️ Utilities
-- **Smart Search**: ค้นหารายการธุรกรรมย้อนหลังได้อย่างรวดเร็ว
-- **CRUD Operations**: เพิ่ม, ลบ, แก้ไข รายการย้อนหลังได้ทุกเมื่อ
-
----
-
-## 🛠️ Technology Stack
-- **Frontend**: React.js (Vite)
-- **Styling**: Vanilla CSS (Custom Design System)
+- **Frontend**: React.js + Vite
 - **Animations**: Framer Motion
-- **Charts**: Recharts
+- **Data Visualization**: Recharts
 - **Icons**: Lucide React
-- **Mobile Core**: Capacitor (Cross-platform Android)
+- **Styling**: Premium CSS Design System (Custom)
+
+## 🛠️ Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone [your-repo-url]
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run Development Server**
+   ```bash
+   npm run dev
+   ```
+
+## 🔒 Security Note
+This application uses `localStorage` for data persistence. All financial data and PIN codes are stored locally on your device and are never transmitted to external servers.
 
 ---
-
-## 📅 Changelog (ประวัติการพัฒนา)
-
-### v1.3.0 - Global Aesthetics (Current)
-- **Added**: ระบบ Card Skins เลือกเปลี่ยนลายบัตรได้ 5 สไตล์ (Marble, Carbon, Holo, Crimson, Midnight)
-- **Added**: ระบบ Global Currency รองรับการสลับสกุลเงิน (THB, USD, EUR, JPY) พร้อมคำนวณค่าเงินอัตโนมัติ
-- **Improved**: UI Dashboard ปรับเปลี่ยนสีตามสกินที่เลือก
-- **Improved**: ระบบการป้อนข้อมูลให้รองรับสกุลเงินที่เลือก
-
-### v1.2.0 - Ultimate Edition
-- **Added**: ระบบ Debt & Loan Tracker (จัดการหนี้สิน/เงินยืม)
-- **Added**: แสดงเลขเวอร์ชันในหน้า Settings
-- **Improved**: UI ในหน้า Wallet ให้รองรับทั้ง Subscriptions และ Debts
-- **Improved**: แก้ไข Bug การแสดงผล Modal บนมือถือ
-
-### v1.1.0 - Pro Edition
-- **Added**: ระบบ PIN Security Lock
-- **Added**: ระบบตั้งงบประมาณรายเดือน (Monthly Budgets)
-- **Added**: ระบบค้นหาอัจฉริยะ (Smart Search)
-- **Added**: ฟีเจอร์แก้ไข/ลบรายการ (Update & Delete)
-
-### v1.0.0 - Global Release
-- **Added**: ฟีเจอร์จดบันทึกรายรับ-รายจ่ายพื้นฐาน
-- **Added**: ระบบสรุปสถิติเบื้องต้น
-- **Added**: ดีไซน์ Midnight Gold ครั้งแรก
-
----
-
-## 👨‍💻 Author
-**Developed with ❤️ by Antigravity AI & YOU**
-
----
-
-*Finura - Elevate Your Financial Life.*
+*Built with precision for the next generation of investors.*
